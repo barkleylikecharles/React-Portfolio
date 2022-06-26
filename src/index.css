@@ -50,7 +50,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: 'Fjalla One', sans-serif;
 
 }
 
@@ -283,7 +283,7 @@ textarea {
 }
 
 button {
-	background: var(--primary);
+	background: green;
 	border: 0;
 	border-radius: 5px;
 	color: #fff;

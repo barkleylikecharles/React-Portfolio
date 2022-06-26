@@ -1,5 +1,5 @@
 import React from 'react';
-import iconUrl from "../../assets/pngegg.png"
+import iconUrl from "../../assets/icon/pngegg.png"
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
