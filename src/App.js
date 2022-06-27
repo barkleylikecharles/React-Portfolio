@@ -4,7 +4,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import ContactForm from './components/Contact'
 import Home from './components/Home'
-
+import coverImage from "./assets/coverImage.jpg";
 
 function App() {
   const [categories] = useState([
@@ -29,7 +29,7 @@ function App() {
         setContactSelected={setContactSelected}
       ></Nav>
       <main>
-        <Home></Home>
+        <Home img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover"></Home>
           {!contactSelected ? (
             <>
               <Projects currentCategory={currentCategory}></Projects>
