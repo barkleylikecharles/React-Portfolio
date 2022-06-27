@@ -10,7 +10,7 @@ function App() {
   const [categories] = useState([
     {
       name: 'Node',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
+      description: '',
     },
     { name: 'Express', description: '' },
     { name: 'HTML/CSS', description: '' },
@@ -29,7 +29,7 @@ function App() {
         setContactSelected={setContactSelected}
       ></Nav>
       <main>
-        <Home img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover"></Home>
+        <Home img src="{coverImage}" className="my-2" style={{ width: "100%" }} alt="cover"></Home>
           {!contactSelected ? (
             <>
               <Projects currentCategory={currentCategory}></Projects>

@@ -13,9 +13,10 @@ const PhotoList = ({ category }) => {
       url: 'https://barkleylikecharles.github.io/project-homepage/'
     },
     {
-        name: '',
+        name: 'Dominate Your Day',
         category: 'HTML/CSS',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+        description: 'Group Project https://barkleylikecharles.github.io/project-homepage/',
+        image: ''
       },
       {
         name: 'Node',
