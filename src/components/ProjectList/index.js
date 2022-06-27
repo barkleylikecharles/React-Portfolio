@@ -7,10 +7,21 @@ const PhotoList = ({ category }) => {
 
   const [photos] = useState([
     {
-      name: 'Grocery aisle',
-      category: 'commercial',
+      name: 'JavaScript',
+      category: 'javascript',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    }
+      url: 'https://barkleylikecharles.github.io/project-homepage/'
+    },
+    {
+        name: '',
+        category: 'HTML/CSS',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      },
+      {
+        name: 'Node',
+        category: 'node',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      }
   ]);
 
   const currentProject = photos.filter(project => project.category === category);

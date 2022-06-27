@@ -1,5 +1,5 @@
 import React from 'react';
-import iconUrl from "../../assets/icon/pngegg.png"
+// import iconUrl from "../../assets/icon/pnegg.png"
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
@@ -23,7 +23,7 @@ function Nav(props) {
     <header className="flex-row px-1">
       <h2>
         <a data-testid="link" href="/">
-          <span role="img" aria-label="Nicole Barkley">{iconUrl}</span> BarkleyLikeCharles
+          <span role="img" aria-label="Nicole Barkley"></span> BarkleyLikeCharles
         </a>
       </h2>
       <nav>

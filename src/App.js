@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Projects from './components/Projects';
 import ContactForm from './components/Contact'
+import Home from './components/Home'
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       description: 'Photos of grocery stores, food trucks, and other commercial projects',
     },
     { name: 'Express', description: '' },
-    { name: 'HTML/CSS', description: 'D' },
+    { name: 'HTML/CSS', description: '' },
     { name: 'React', description: '' },
   ]);
   const [contactSelected, setContactSelected] = useState(false);
@@ -28,6 +29,7 @@ function App() {
         setContactSelected={setContactSelected}
       ></Nav>
       <main>
+        <Home></Home>
           {!contactSelected ? (
             <>
               <Projects currentCategory={currentCategory}></Projects>
